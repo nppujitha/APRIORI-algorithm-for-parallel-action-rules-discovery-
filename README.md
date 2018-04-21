@@ -1,8 +1,6 @@
 # APRIORI-algorithm-for-parallel-action-rules-discovery-
 //** 
   ** README
-  **
-  **  PART 3
 //
 
 
