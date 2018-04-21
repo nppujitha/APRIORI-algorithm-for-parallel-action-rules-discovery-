@@ -1,0 +1,80 @@
+(age,age40 ->  age40)^(margin,margin1 ->  margin4) ==> (shape,shape1 ->  shape3)	2.0,40.0 <----> Good
+(birads,birads4 ->  birads5)^(density,density2 ->  density3)^(severity,severity0 ->  severity0)^(margin,margin1 ->  margin1) ==> (shape,shape1 ->  shape3)	2.0,29.411764705882355 <----> Good
+(birads,birads4 ->  birads5)^(density,density3 ->  density3)^(margin,margin1 ->  margin1)^(severity,severity0 ->  severity0) ==> (shape,shape1 ->  shape3)	2.0,66.66666666666666 <----> Good
+(birads,birads4 ->  birads5)^(density,density3 ->  density3)^(margin,margin1 ->  margin1)^(severity,severity1 ->  severity0) ==> (shape,shape1 ->  shape3)	2.0,60.0 <----> Good
+(birads,birads4 ->  birads5)^(density,density3 ->  density3)^(margin,margin1 ->  margin?) ==> (shape,shape1 ->  shape3)	2.0,22.018348623853214 <----> Good
+(birads,birads4 ->  birads5)^(density,density3 ->  density3)^(margin,margin1 ->  margin?)^(severity,severity0 ->  severity0) ==> (shape,shape1 ->  shape3)	2.0,26.666666666666668 <----> Good
+(birads,birads4 ->  birads5)^(density,density3 ->  density3)^(margin,margin1 ->  margin?)^(severity,severity1 ->  severity0) ==> (shape,shape1 ->  shape3)	2.0,24.0 <----> Good
+(birads,birads4 ->  birads5)^(density,density3 ->  density3)^(margin,margin? ->  margin1)^(severity,severity0 ->  severity0) ==> (shape,shape1 ->  shape3)	2.0,50.0 <----> Good
+(birads,birads4 ->  birads5)^(density,density3 ->  density3)^(margin,margin? ->  margin?)^(severity,severity0 ->  severity0) ==> (shape,shape1 ->  shape3)	2.0,20.0 <----> Good
+(birads,birads4 ->  birads5)^(margin,margin1 ->  margin1)^(density,density1 ->  density3)^(severity,severity0 ->  severity0) ==> (shape,shape1 ->  shape3)	2.0,66.66666666666666 <----> Good
+(birads,birads4 ->  birads5)^(margin,margin1 ->  margin1)^(severity,severity0 ->  severity0) ==> (shape,shape1 ->  shape3)	2.0,58.9041095890411 <----> Good
+(birads,birads4 ->  birads5)^(margin,margin1 ->  margin1)^(severity,severity1 ->  severity0) ==> (shape,shape1 ->  shape3)	2.0,66.66666666666666 <----> Good
+(birads,birads4 ->  birads5)^(margin,margin? ->  margin1)^(severity,severity0 ->  severity0) ==> (shape,shape1 ->  shape3)	2.0,47.05882352941176 <----> Good
+(birads,birads5 ->  birads4)^(severity,severity0 ->  severity0)^(margin,margin? ->  margin4)^(density,density3 ->  density?) ==> (shape,shape1 ->  shape3)	2.0,20.0 <----> Good
+(birads,birads5 ->  birads5)^(severity,severity0 ->  severity0)^(margin,margin? ->  margin1) ==> (shape,shape1 ->  shape3)	2.0,42.857142857142854 <----> Good
+(birads,birads5 ->  birads5)^(severity,severity1 ->  severity0)^(margin,margin1 ->  margin1) ==> (shape,shape1 ->  shape3)	2.0,42.857142857142854 <----> Good
+(density,density3 ->  density3)^(birads,birads3 ->  birads3)^(severity,severity0 ->  severity0)^(margin,margin1 ->  margin4) ==> (shape,shape1 ->  shape3)	2.0,20.0 <----> Good
+(density,density3 ->  density3)^(birads,birads3 ->  birads5)^(severity,severity0 ->  severity0)^(margin,margin1 ->  margin?) ==> (shape,shape1 ->  shape3)	2.0,20.0 <----> Good
+(density,density3 ->  density3)^(margin,margin? ->  margin1)^(birads,birads5 ->  birads5)^(severity,severity0 ->  severity0) ==> (shape,shape1 ->  shape3)	2.0,40.0 <----> Good
+(density,density3 ->  density3)^(margin,margin? ->  margin4)^(birads,birads5 ->  birads3) ==> (shape,shape1 ->  shape3)	2.0,20.0 <----> Good
+(density,density? ->  density2)^(birads,birads2 ->  birads5) ==> (shape,shape1 ->  shape3)	2.0,22.22222222222222 <----> Good
+(density,density? ->  density3)^(margin,margin1 ->  margin1)^(birads,birads2 ->  birads5) ==> (shape,shape1 ->  shape3)	2.0,25.0 <----> Good
+(density,density? ->  density3)^(margin,margin1 ->  margin4)^(birads,birads2 ->  birads3) ==> (shape,shape1 ->  shape3)	2.0,40.0 <----> Good
+(density,density? ->  density3)^(margin,margin1 ->  margin4)^(birads,birads4 ->  birads3) ==> (shape,shape1 ->  shape3)	2.0,20.689655172413797 <----> Good
+(density,density? ->  density3)^(margin,margin1 ->  margin?)^(birads,birads2 ->  birads5) ==> (shape,shape1 ->  shape3)	2.0,33.33333333333333 <----> Good
+(density,density? ->  density3)^(margin,margin? ->  margin1)^(birads,birads3 ->  birads5) ==> (shape,shape1 ->  shape3)	2.0,25.0 <----> Good
+(density,density? ->  density3)^(margin,margin? ->  margin4)^(birads,birads3 ->  birads3) ==> (shape,shape1 ->  shape3)	2.0,40.0 <----> Good
+(density,density? ->  density3)^(margin,margin? ->  margin4)^(birads,birads4 ->  birads3) ==> (shape,shape1 ->  shape3)	2.0,20.0 <----> Good
+(density,density? ->  density3)^(severity,severity0 ->  severity0)^(birads,birads3 ->  birads3)^(margin,margin? ->  margin4) ==> (shape,shape1 ->  shape3)	2.0,40.0 <----> Good
+(density,density? ->  density3)^(severity,severity0 ->  severity0)^(birads,birads3 ->  birads5)^(margin,margin? ->  margin1) ==> (shape,shape1 ->  shape3)	2.0,100.0 <----> Good
+(density,density? ->  density3)^(severity,severity0 ->  severity0)^(birads,birads3 ->  birads5)^(margin,margin? ->  margin?) ==> (shape,shape1 ->  shape3)	2.0,40.0 <----> Good
+(density,density? ->  density3)^(severity,severity0 ->  severity0)^(birads,birads4 ->  birads5)^(margin,margin1 ->  margin1) ==> (shape,shape1 ->  shape3)	2.0,48.148148148148145 <----> Good
+(density,density? ->  density3)^(severity,severity0 ->  severity0)^(birads,birads4 ->  birads5)^(margin,margin? ->  margin1) ==> (shape,shape1 ->  shape3)	2.0,50.0 <----> Good
+(density,density? ->  density3)^(severity,severity0 ->  severity0)^(birads,birads4 ->  birads5)^(margin,margin? ->  margin?) ==> (shape,shape1 ->  shape3)	2.0,20.0 <----> Good
+(density,density? ->  density3)^(severity,severity1 ->  severity0)^(margin,margin1 ->  margin1)^(birads,birads4 ->  birads5) ==> (shape,shape1 ->  shape3)	2.0,100.0 <----> Good
+(density,density? ->  density3)^(severity,severity1 ->  severity0)^(margin,margin1 ->  margin?) ==> (shape,shape1 ->  shape3)	3.0,21.428571428571427 <----> Good
+(density,density? ->  density3)^(severity,severity1 ->  severity0)^(margin,margin1 ->  margin?)^(birads,birads4 ->  birads5) ==> (shape,shape1 ->  shape3)	2.0,40.0 <----> Good
+(density,density? ->  density?)^(margin,margin1 ->  margin4)^(birads,birads2 ->  birads4) ==> (shape,shape1 ->  shape3)	2.0,28.57142857142857 <----> Good
+(density,density? ->  density?)^(margin,margin1 ->  margin4)^(severity,severity1 ->  severity0) ==> (shape,shape1 ->  shape3)	2.0,40.0 <----> Good
+(density,density? ->  density?)^(margin,margin? ->  margin4)^(birads,birads3 ->  birads4) ==> (shape,shape1 ->  shape3)	2.0,28.57142857142857 <----> Good
+(density,density? ->  density?)^(severity,severity0 ->  severity0)^(birads,birads3 ->  birads4)^(margin,margin? ->  margin4) ==> (shape,shape1 ->  shape3)	2.0,50.0 <----> Good
+(density,density? ->  density?)^(severity,severity0 ->  severity0)^(birads,birads4 ->  birads4)^(margin,margin1 ->  margin4) ==> (shape,shape1 ->  shape3)	2.0,24.074074074074073 <----> Good
+(density,density? ->  density?)^(severity,severity0 ->  severity0)^(birads,birads4 ->  birads4)^(margin,margin? ->  margin4) ==> (shape,shape1 ->  shape3)	2.0,25.0 <----> Good
+(density,density? ->  density?)^(severity,severity0 ->  severity0)^(margin,margin? ->  margin4) ==> (shape,shape1 ->  shape3)	2.0,23.333333333333336 <----> Good
+(margin,margin1 ->  margin1)^(density,density3 ->  density3)^(birads,birads5 ->  birads5)^(severity,severity1 ->  severity0) ==> (shape,shape1 ->  shape3)	2.0,33.33333333333333 <----> Good
+(margin,margin1 ->  margin1)^(severity,severity0 ->  severity0)^(birads,birads2 ->  birads5) ==> (shape,shape1 ->  shape3)	2.0,66.66666666666666 <----> Good
+(margin,margin1 ->  margin1)^(severity,severity0 ->  severity0)^(birads,birads3 ->  birads5) ==> (shape,shape1 ->  shape3)	2.0,33.33333333333333 <----> Good
+(margin,margin1 ->  margin1)^(severity,severity0 ->  severity0)^(birads,birads3 ->  birads5)^(density,density3 ->  density3) ==> (shape,shape1 ->  shape3)	2.0,50.0 <----> Good
+(margin,margin1 ->  margin4)^(birads,birads2 ->  birads3) ==> (shape,shape1 ->  shape3)	2.0,30.000000000000004 <----> Good
+(margin,margin1 ->  margin4)^(birads,birads4 ->  birads3) ==> (shape,shape1 ->  shape3)	2.0,23.79746835443038 <----> Good
+(margin,margin1 ->  margin4)^(birads,birads4 ->  birads4)^(age,age40 ->  age40) ==> (shape,shape1 ->  shape3)	2.0,60.0 <----> Good
+(margin,margin1 ->  margin4)^(birads,birads4 ->  birads4)^(age,age40 ->  age40)^(severity,severity0 ->  severity0) ==> (shape,shape1 ->  shape3)	2.0,60.0 <----> Good
+(margin,margin1 ->  margin4)^(density,density1 ->  density3)^(birads,birads4 ->  birads3) ==> (shape,shape1 ->  shape3)	2.0,26.666666666666668 <----> Good
+(margin,margin1 ->  margin4)^(density,density1 ->  density?)^(severity,severity0 ->  severity0) ==> (shape,shape1 ->  shape3)	2.0,26.666666666666668 <----> Good
+(margin,margin1 ->  margin4)^(density,density1 ->  density?)^(severity,severity0 ->  severity0)^(birads,birads4 ->  birads4) ==> (shape,shape1 ->  shape3)	2.0,33.33333333333333 <----> Good
+(margin,margin1 ->  margin4)^(density,density3 ->  density3)^(birads,birads3 ->  birads3) ==> (shape,shape1 ->  shape3)	2.0,20.0 <----> Good
+(margin,margin1 ->  margin4)^(density,density3 ->  density3)^(birads,birads4 ->  birads3) ==> (shape,shape1 ->  shape3)	2.0,26.422018348623855 <----> Good
+(margin,margin1 ->  margin4)^(density,density3 ->  density?)^(birads,birads4 ->  birads4)^(severity,severity0 ->  severity0) ==> (shape,shape1 ->  shape3)	2.0,33.33333333333333 <----> Good
+(margin,margin1 ->  margin4)^(density,density3 ->  density?)^(severity,severity0 ->  severity0) ==> (shape,shape1 ->  shape3)	2.0,25.90476190476191 <----> Good
+(margin,margin1 ->  margin4)^(density,density3 ->  density?)^(severity,severity1 ->  severity0) ==> (shape,shape1 ->  shape3)	2.0,20.0 <----> Good
+(margin,margin1 ->  margin4)^(severity,severity0 ->  severity0)^(age,age40 ->  age40) ==> (shape,shape1 ->  shape3)	2.0,60.0 <----> Good
+(margin,margin1 ->  margin4)^(severity,severity0 ->  severity0)^(birads,birads2 ->  birads3) ==> (shape,shape1 ->  shape3)	2.0,26.666666666666668 <----> Good
+(margin,margin1 ->  margin4)^(severity,severity0 ->  severity0)^(birads,birads3 ->  birads4)^(density,density3 ->  density?) ==> (shape,shape1 ->  shape3)	2.0,25.0 <----> Good
+(margin,margin1 ->  margin4)^(severity,severity0 ->  severity0)^(birads,birads4 ->  birads3) ==> (shape,shape1 ->  shape3)	2.0,23.56164383561644 <----> Good
+(margin,margin1 ->  margin4)^(severity,severity0 ->  severity0)^(birads,birads4 ->  birads3)^(density,density3 ->  density3) ==> (shape,shape1 ->  shape3)	2.0,26.666666666666668 <----> Good
+(margin,margin1 ->  margin4)^(severity,severity1 ->  severity0)^(birads,birads4 ->  birads3) ==> (shape,shape1 ->  shape3)	2.0,26.666666666666668 <----> Good
+(margin,margin1 ->  margin4)^(severity,severity1 ->  severity0)^(birads,birads4 ->  birads3)^(density,density3 ->  density3) ==> (shape,shape1 ->  shape3)	2.0,24.0 <----> Good
+(margin,margin1 ->  margin4)^(severity,severity1 ->  severity0)^(birads,birads4 ->  birads3)^(density,density? ->  density3) ==> (shape,shape1 ->  shape3)	2.0,40.0 <----> Good
+(margin,margin1 ->  margin4)^(severity,severity1 ->  severity0)^(birads,birads4 ->  birads4)^(density,density3 ->  density?) ==> (shape,shape1 ->  shape3)	2.0,30.0 <----> Good
+(margin,margin1 ->  margin4)^(severity,severity1 ->  severity0)^(birads,birads4 ->  birads4)^(density,density? ->  density?) ==> (shape,shape1 ->  shape3)	2.0,50.0 <----> Good
+(margin,margin1 ->  margin?)^(density,density1 ->  density3)^(birads,birads4 ->  birads5) ==> (shape,shape1 ->  shape3)	2.0,22.22222222222222 <----> Good
+(margin,margin1 ->  margin?)^(density,density1 ->  density3)^(birads,birads4 ->  birads5)^(severity,severity0 ->  severity0) ==> (shape,shape1 ->  shape3)	2.0,26.666666666666668 <----> Good
+(margin,margin? ->  margin1)^(birads,birads3 ->  birads5)^(severity,severity0 ->  severity0) ==> (shape,shape1 ->  shape3)	2.0,66.66666666666666 <----> Good
+(margin,margin? ->  margin4)^(birads,birads3 ->  birads3) ==> (shape,shape1 ->  shape3)	2.0,26.666666666666668 <----> Good
+(margin,margin? ->  margin4)^(birads,birads3 ->  birads3)^(severity,severity0 ->  severity0) ==> (shape,shape1 ->  shape3)	2.0,26.666666666666668 <----> Good
+(margin,margin? ->  margin4)^(birads,birads4 ->  birads3)^(severity,severity0 ->  severity0)^(density,density3 ->  density3) ==> (shape,shape1 ->  shape3)	2.0,20.0 <----> Good
+(margin,margin? ->  margin4)^(birads,birads4 ->  birads3)^(severity,severity0 ->  severity0)^(density,density? ->  density3) ==> (shape,shape1 ->  shape3)	2.0,20.0 <----> Good
+(margin,margin? ->  margin4)^(birads,birads4 ->  birads4)^(severity,severity0 ->  severity0)^(density,density3 ->  density?) ==> (shape,shape1 ->  shape3)	2.0,25.0 <----> Good
+(margin,margin? ->  margin?)^(birads,birads3 ->  birads5)^(density,density? ->  density3) ==> (shape,shape1 ->  shape3)	2.0,33.33333333333333 <----> Good
+(severity,severity0 ->  severity0)^(density,density1 ->  density3)^(birads,birads4 ->  birads3)^(margin,margin1 ->  margin4) ==> (shape,shape1 ->  shape3)	2.0,26.666666666666668 <----> Good
